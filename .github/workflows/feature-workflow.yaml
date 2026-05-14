@@ -6,7 +6,7 @@ jobs:
   # Job name
   feature-pipeline:
     if: github.ref_name != 'main'
-    uses: devops/workflows/.github/workflows/java-feature-pipeline.yaml@main
+    uses: RoboshopGit/workflows/.github/workflows/java-feature-pipeline.yaml@main
     with:
       project: 'roboshop'
       component: 'shipping'
